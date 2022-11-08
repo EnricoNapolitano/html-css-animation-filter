@@ -91,10 +91,20 @@
     border-radius: 15px;
 }
 
+/* esercizio 9 */
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+
+    transition: all 0.6s;
 }
+
+.ex-9-img:hover {
+    filter:brightness(2) opacity(0.5);
+    border-radius: 15px;
+    transform: scale(1.5);
+}
+
 .ex-10-icon {
     font-size: 60px;
 }
