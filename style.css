@@ -1,3 +1,4 @@
+/* esercizio 1 */
 .ex-1-square {
     width: 100px;
     height: 100px;
@@ -10,11 +11,19 @@
     background-color: red;
 }
 
+/* esercizio 2 */
 .ex-2-square {
     width: 100px;
     height: 100px;
     background: red;
+
+    transition: width 2s;
 }
+
+.ex-2-square:active {
+    width: 100%;
+}
+
 .ex-3-square {
     width: 100px;
     height: 100px;
