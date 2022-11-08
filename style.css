@@ -105,9 +105,21 @@
     transform: scale(1.5);
 }
 
+/* esercizio 10 */
 .ex-10-icon {
     font-size: 60px;
+    animation: spin linear 0.8s infinite;
 }
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
 .ex-11-icon {
     font-size: 60px;
 }
