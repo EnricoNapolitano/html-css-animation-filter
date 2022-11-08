@@ -68,13 +68,13 @@
     transform: scale(0.5);
 }
 
-/* esercizio 6 - 7 */
+/* esercizio 6 - 7 -8 */
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
 }
 
-.ex-7-img {
-    transition: all 0.8s;
+.ex-7-img, .ex-8-img {
+    transition: all 0.5s;
 }
 
 .ex-6-img:hover {
@@ -86,7 +86,10 @@
     border-radius: 15px;
 } 
 
-
+.ex-8-img:hover {
+    filter: grayscale(1) opacity(0.6);
+    border-radius: 15px;
+}
 
 .ex-9-img {
     margin: 50px 100px;
